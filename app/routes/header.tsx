@@ -1,11 +1,9 @@
-import React from "react";
-
 export default function Header() {
   return (
-    <header>
+    <header className="w-screen">
       <h1>my site</h1>
-      <nav>
-        <ul>
+      <nav className="w-screen">
+        <ul className="flex justify-between">
           <li>
             <a href="#">Action</a>
           </li>
