@@ -12,6 +12,7 @@ export default [
       route("about", "routes/about.tsx"),
       route("locations", "routes/locations.tsx"),
       route("locations/:locationId", "routes/location.tsx"),
+      route("hello", "routes/hello.tsx"),
     ]),
   ]),
 ] satisfies RouteConfig;
